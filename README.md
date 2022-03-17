@@ -6,5 +6,7 @@ v-date-picker с датой или диапазоном дат. Компонен
 устанавливать текущую дату по ум лчанию.
 
 Пример :
-<VDatePickerWrapper set-date="22/03/15" format="DD/MM/YY"></VDatePickerWrapper>
-<VDatePickerWrapper set-date="2022/03/15" format="YYYY/MM/DD"></VDatePickerWrapper>
+
+VDatePickerWrapper set-date="22/03/15" format="DD/MM/YY"></VDatePickerWrapper
+
+VDatePickerWrapper set-date="2022/03/15" format="YYYY/MM/DD"></VDatePickerWrapper
