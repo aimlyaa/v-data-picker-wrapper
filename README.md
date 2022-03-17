@@ -1,24 +1,10 @@
-# v-date-picker-wrap
+С использованием Vuetify сделать унифицированный компонент обертку
+v-date-picker с датой или диапазоном дат. Компонент должен принимать и
+возвращать значение даты (диапазона дат). Формат даты должен
+регулироваться параметром, переданным компоненту. Компонент должен
+правильно обрабатывать присвоенное значение с невалидным форматом даты и
+устанавливать текущую дату по ум лчанию.
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Пример :
+<VDatePickerWrapper set-date="22/03/15" format="DD/MM/YY"></VDatePickerWrapper>
+<VDatePickerWrapper set-date="2022/03/15" format="YYYY/MM/DD"></VDatePickerWrapper>
